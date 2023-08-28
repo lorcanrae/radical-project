@@ -14,3 +14,6 @@ def add_any_numbers(*a):
         sum_ += num
     return sum_
 
+if __name__ == "__main__":
+
+    print(add_any_numbers(5, 12, 30, 16, 50, 82, 1))
