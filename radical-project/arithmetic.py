@@ -4,3 +4,6 @@ def add_two_numbers(a, b):
 
 def add_three_numbers(a, b, c) -> int:
     return a + b + c
+
+def uppercase_word(word: str) -> str:
+    return word.upper()
